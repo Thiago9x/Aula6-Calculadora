@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    width: 400px;
+    height: 320px;
+    margin-top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #0009;
+}
+div{
+    padding-top: 10px;
+}
+#btnCalcular{
+    outline: none;
+    border: none;
+    padding: 2px;
+    color: white;
+    background-color: purple;
+    margin-top: 20px;
+    border-radius: 3px;
+    cursor: pointer; 
+}
+body{
+    background: li-gradient(black, orange);
+}
+h1{
+    width: inherit;
+    height: 50px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+}
+
+lable{
+    color: white;
+}
+#radios{
+    width: 200px;
+    height: 180px;
+    margin-right: 20px;
+/*    border: solid 3px white;*/
+    float: left;
+}
+span{
+    color: white;
+}
+#resultado{
+    width: 180px;
+    height: 180px;
+    padding-top: 10px;
+    float: left;
+}
+ #result{
+    width: 100px;
+    height: 100px;
+    padding-top: 40px;
+    background-color: purple;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3px white;
+}
+.msgErro{
+    padding-top: 5px;
+    width: 600px;
+    height: 30px;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: red;
+    background-color: azure;
+}
